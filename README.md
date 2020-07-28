@@ -1,13 +1,13 @@
 # Table of contents
-- [About](#-about)
-- [Main libs and techs used](#-main-libs-and-techs-used)
-- [Downloading and setting up the project](#-downloading-and-setting-up-the-project)
-- [Expected routes](#-expected-routes)
+- [About](#📄-about)
+- [Main libs and techs used](#👨‍💻-main-libs-and-techs-used)
+- [Downloading and setting up the project](#🔧-downloading-and-setting-up-the-project)
+- [Expected routes](#↔-expected-routes)
 - [License & copyright](#license--copyright)
 
 ## 📄 About
 
-This project was done during Rocketseat's GoStack bootcamp challenge. It is a NodeJS server that stores transactions in a postgreSQL server.
+This project was developed during Rocketseat's GoStack bootcamp challenge. It is a NodeJS server that stores transactions in a postgreSQL server.
 
 ---
 
@@ -19,7 +19,7 @@ The project was developed using the following techs:
 - [uuidv4](https://www.npmjs.com/package/uuidv4)
 - [insomnia](https://insomnia.rest/)
 - [Docker](https://www.docker.com/)
-- [postgreSQL](https://www.postgresql.org/)
+- [PostgreSQL](https://www.postgresql.org/)
 - [DBeaver](https://dbeaver.io/)
 - [TypeORM](https://typeorm.io/#/)
 
@@ -27,10 +27,13 @@ The project was developed using the following techs:
 
 ## 🔧 Downloading and setting up the project
 
-Simply clone this template or download it to your device and run the command **yarn** on your terminal to install all required dependencies.
-To make sure erything is running properly, run **yarn test**.
-To run the server, run the command **yarn dev:server**.
-To test the routes, I recommend using the [insomnia](https://insomnia.rest/) app.
+Simply clone this template or download it to your device and run the command **yarn** on your terminal to install all required dependencies. <br/>
+To make sure erything is running properly, run **yarn test**. <br/>
+To run the server, run the command **yarn dev:server**. </br>
+The postgreSQL server is hosted using a Docker container.</br>
+TypeORM was used to manage the migration of the tables and settings to the databank. There is also a complementary file with its setting named `ormconfig.json`.  </br>
+DBeaver was used to keep track of what was kept stored in the Databank. </br>
+To test the routes used by the api, I recommend using the [insomnia](https://insomnia.rest/) app.
 
 ---
 
