@@ -1,8 +1,8 @@
 # Table of contents
-- [About](#📄-about)
-- [Main libs and techs used](#👨‍💻-main-libs-and-techs-used)
-- [Downloading and setting up the project](#🔧-downloading-and-setting-up-the-project)
-- [Expected routes](#↔-expected-routes)
+- [About](#-about)
+- [Main libs and techs used](#-main-libs-and-techs-used)
+- [Downloading and setting up the project](#-downloading-and-setting-up-the-project)
+- [Expected routes](#-expected-routes)
 - [License & copyright](#license--copyright)
 
 ## 📄 About
